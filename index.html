@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <div class="logo">
+
+        <img src="logo_plamont.png" alt="Plamont Engenharia">
+
+        <p class="filial">
+        Filial São Luís - MA
+    </p>
+</div>
+
+
+
+    <button onclick="abrirPagina('dashboard')">
+
+    <img src="assets/icons/home.svg" class="menu-icon" alt="Dashboard">
+
+    <div class="menu-texto">
+        <span class="titulo-menu">Dashboard</span>
+        <span class="subtitulo-menu">Página Inicial</span>
+    </div>
+
+</button>
+
+    <button onclick="abrirPagina('os440')">
+
+    <img src="assets/icons/industry.svg" class="menu-icon" alt="Contrato">
+
+    <div class="menu-texto">
+        <span class="titulo-menu">OS 440</span>
+        <span class="subtitulo-menu">Integridade Estrutural</span>
+    </div>
+
+</button>
+
+    <button onclick="abrirPagina('os441')">
+
+    <img src="assets/icons/industry.svg" class="menu-icon" alt="Contrato">
+
+    <div class="menu-texto">
+        <span class="titulo-menu">OS 441</span>
+        <span class="subtitulo-menu">Manutenção de Desgaste</span>
+    </div>
+
+</button>
+
+    <button onclick="abrirPagina('os442')">
+
+    <img src="assets/icons/industry.svg" class="menu-icon" alt="Contrato">
+
+    <div class="menu-texto">
+        <span class="titulo-menu">OS 442</span>
+        <span class="subtitulo-menu">Manutenção e Utilidades</span>
+    </div>
+
+</button>
+
+    <button onclick="abrirPagina('os450')">
+
+    <img src="assets/icons/industry.svg" class="menu-icon" alt="Contrato">
+
+    <div class="menu-texto">
+        <span class="titulo-menu">OS 450</span>
+        <span class="subtitulo-menu">Manutenção de Ativos</span>
+    </div>
+
+</button>
+
+</div>
+
+<div class="conteudo">
+
+    <!-- DASHBOARD -->
+
+    <section id="dashboard" class="pagina ativa">
+
+    <div class="cabecalho">
+
+        <div>
+            <h1>📊 Programação Diária</h1>
+            <p class="subtitulo">
+                Relatório Diário de Mão de Obra, Recursos e Atividades
+            </p>
+        </div>
+
+        <div class="data-card">
+            📅 <strong>10/07/2026</strong><br>
+            🕐 Turno Dia A
+        </div>
+
+    </div>
+
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🏗️ OS 440</h3>
+            <h1>55</h1>
+            <p>Colaboradores</p>
+        </div>
+
+        <div class="card">
+            <h3>🏗️ OS 441</h3>
+            <h1>47</h1>
+            <p>Colaboradores</p>
+        </div>
+
+        <div class="card">
+            <h3>🏗️ OS 442</h3>
+            <h1>30</h1>
+            <p>Colaboradores</p>
+        </div>
+
+        <div class="card">
+            <h3>🏗️ OS 450</h3>
+            <h1>39</h1>
+            <p>Colaboradores</p>
+        </div>
+
+    </div>
+
+
+    <div class="bloco">
+
+        <h2>📈 Resumo Geral</h2>
+
+        <ul class="lista">
+
+            <li>👥 Total Geral de Colaboradores <strong>171</strong></li>
+
+            <li>❌ Ausências Registradas <strong>4</strong></li>
+
+            <li>🚚 Contratos Ativos <strong>4</strong></li>
+
+            <li>📋 Ordens de Manutenção Programadas <strong>20+</strong></li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="bloco">
+
+        <h2>📌 Situação dos Contratos</h2>
+
+        <ul class="lista">
+
+            <li><span class="status verde"></span>OS 440 - Operação Normal</li>
+
+            <li><span class="status verde"></span>OS 441 - Operação Normal</li>
+
+            <li><span class="status verde"></span>OS 442 - Operação Normal</li>
+
+            <li><span class="status verde"></span>OS 450 - Operação Normal</li>
+
+        </ul>
+
+    </div>
+
+</section>
+        
+
+
+    <!-- OS440 -->
+
+   <section id="os440" class="pagina">
+
+    <div class="cabecalho">
+
+        <div>
+            <h1>🏗️ Contrato OS 440</h1>
+            <p class="subtitulo">
+                Disponibilidade de Mão de Obra e Recursos
+            </p>
+        </div>
+
+        <div class="data-card">
+            📅 10/07/2026<br>
+            🕐 Turno Dia A
+        </div>
+
+    </div>
+
+
+    <!-- QLP -->
+
+    <div class="bloco">
+
+        <h2>👷 Efetivo (QLP)</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>09</strong></li>
+            <li>🔩 Mecânicos <strong>21</strong></li>
+            <li>⚙️ Soldadores <strong>08</strong></li>
+            <li>🪜 Montadores de Andaime <strong>12</strong></li>
+            <li>⚡ Eletricistas <strong>02</strong></li>
+            <li>👷 Ajudantes de Montagem <strong>03</strong></li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- AUSÊNCIAS -->
+
+    <div class="bloco">
+
+        <h2>❌ Ausências</h2>
+
+        <ul class="lista">
+
+            <li>Mecânicos: 0</li>
+            <li>Caldeireiros: 0</li>
+            <li>Soldadores: 0</li>
+            <li>Montadores: 0</li>
+            <li>Eletricistas: 0</li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- RECURSOS -->
+
+    <div class="bloco">
+
+        <h2>🚚 Recursos Disponíveis</h2>
+
+        <ul class="lista">
+
+            <li>🚛 Munck — SGA-3I06</li>
+            <li>🚛 Munck — SGA-3I14</li>
+
+            <li>🚗 Pick-up — SFU-0A35</li>
+            <li>🚗 Pick-up — SFU-0A47</li>
+            <li>🚗 Pick-up — SFU-0401</li>
+
+        </ul>
+
+    </div>
+
+
+
+    <!-- OMs DO DIA -->
+
+<div class="bloco">
+
+    <h2>📋 OMs do Dia</h2>
+
+    <!-- LÍDER -->
+
+    <div class="lider-card">
+
+        <div class="lider-topo">
+
+            <div>
+
+                <h3>👷 João Batista</h3>
+
+                <span>📞 (98) 98887-8415</span>
+
+            </div>
+
+        </div>
+
+        <div class="om-item">
+
+            <span class="status amarelo"></span>
+
+            <div>
+
+                <strong>OM 202500862661</strong>
+
+                <p>AE1.4_REFORÇ.ESTRUT.APOIO.CHUT.DESCAR.</p>
+
+            </div>
+
+        </div>
+
+        <div class="om-item">
+
+            <span class="status amarelo"></span>
+
+            <div>
+
+                <strong>OM 202202364344</strong>
+
+                <p>AE1.0_FAZ REFOC ESTU APOI MES IMPCT</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LÍDER -->
+
+    <div class="lider-card">
+
+        <div class="lider-topo">
+
+            <div>
+
+                <h3>👷 Gutemberg</h3>
+
+                <span>📞 (98) 98857-8265</span>
+
+            </div>
+
+        </div>
+
+        <div class="om-item">
+
+            <span class="status amarelo"></span>
+
+            <div>
+
+                <strong>OM 202500666674</strong>
+
+                <p>PE13.4_RECUPERAR TRINCA DEGRADAÇÃO CD04</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LÍDER -->
+
+    <div class="lider-card">
+
+        <div class="lider-topo">
+
+            <div>
+
+                <h3>👷 Mailson Cordeiro</h3>
+
+                <span>📞 (98) 9614-6804</span>
+
+            </div>
+
+        </div>
+
+        <div class="om-item">
+
+            <span class="status amarelo"></span>
+
+            <div>
+
+                <strong>OM 202506496653</strong>
+
+                <p>INSERIR REFORÇOS NO EIXO 32</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LÍDER -->
+
+    <div class="lider-card">
+
+        <div class="lider-topo">
+
+            <div>
+
+                <h3>👷 Augusto Campos</h3>
+
+                <span>📞 (98) 8508-9007</span>
+
+            </div>
+
+        </div>
+
+        <div class="om-item">
+
+            <span class="status verde"></span>
+
+            <div>
+
+                <strong>ATIVIDADE</strong>
+
+                <p>Atividade no canteiro.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+    <!-- OS441 -->
+
+      <section id="os441" class="pagina">
+
+    <div class="cabecalho">
+
+        <div>
+            <h1>🏗️ Contrato OS 441</h1>
+            <p class="subtitulo">
+                Disponibilidade de Mão de Obra e Recursos
+            </p>
+        </div>
+
+        <div class="data-card">
+            📅 10/07/2026<br>
+            🕐 Turno Dia A
+        </div>
+
+    </div>
+
+    <!-- QLP -->
+
+    <div class="bloco">
+
+        <h2>👷 Efetivo (QLP)</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>06</strong></li>
+            <li>🔩 Mecânicos <strong>16</strong></li>
+            <li>⚙️ Soldadores <strong>06</strong></li>
+            <li>🪜 Montadores de Andaime <strong>12</strong></li>
+            <li>🎨 Pintor <strong>01</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- AUSÊNCIAS -->
+
+    <div class="bloco">
+
+        <h2>❌ Ausências</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>00</strong></li>
+            <li>🔩 Mecânicos <strong>01</strong></li>
+            <li>⚙️ Soldadores <strong>00</strong></li>
+            <li>🪜 Montadores <strong>00</strong></li>
+            <li>🎨 Pintor <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- MOBILIZAÇÃO -->
+
+    <div class="bloco">
+
+        <h2>⚠️ Efetivo em Mobilização</h2>
+
+        <ul class="lista">
+
+            <li>🔩 Mecânicos <strong>00</strong></li>
+            <li>⚡ Eletricistas <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- RECURSOS -->
+
+    <div class="bloco">
+
+        <h2>🚚 Recursos Disponíveis</h2>
+
+        <ul class="lista">
+
+            <li>🚛 Munck — RBB-1B72 (Augusto)</li>
+            <li>🚛 Munck — SGC-7H66 (Euclides)</li>
+
+            <li>🚗 Pick-up — SFT-9J87 (Hilgles - 98 8537-4937)</li>
+            <li>🚗 Pick-up — SFT-9H25 (Gledson - 98 8924-1022)</li>
+
+            <li>🚍 Ônibus/Micro — SIB-9H77 (Marcello - 98 99967-2922)</li>
+
+        </ul>
+
+    </div>
+
+    <!-- OMS -->
+
+    <div class="bloco">
+
+        <h2>📋 OMs Programadas</h2>
+
+        <!-- Elias -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <div>
+
+                    <h3>👷 Elias</h3>
+
+                    <span>📞 (98) 98210-6618</span>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202601819808</strong>
+
+                    <p>REPOR 01 ROLO DE RETORNO DE FERRO DO LADO ESQUERDO NA BL106 CV01</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202601972098</strong>
+
+                    <p>TROCAR 09 ROLOS NA MESA CARTENARIA</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- IEGO -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <div>
+
+                    <h3>👷 Iego</h3>
+
+                    <span>📞 (98) 8506-6056</span>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202602722558</strong>
+
+                    <p>MONT./DESMONT. ANDAIME TROCA DE CHAPAS</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202602722298</strong>
+
+                    <p>TROCA DE CHAPAS DE DESGASTE</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202602980830</strong>
+
+                    <p>MONTAR ANDAIME PARA TROCAR 15 ROLOS</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202602980596</strong>
+
+                    <p>TROCAR 15 ROLOS DE IMPACTO</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- JOÃO -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <div>
+
+                    <h3>👷 João</h3>
+
+                    <span>📞 (98) 8858-6347</span>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202601457530</strong>
+
+                    <p>MONTAR ANDAIME PARA TROCAR ROLOS</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202601440528</strong>
+
+                    <p>TROCAR 10 ROLOS RETORNO EM V</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202603315901</strong>
+
+                    <p>TROCAR GUIA INTERNA</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- JULIO -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <div>
+
+                    <h3>👷 Júlio / Erickson</h3>
+
+                    <span>📞 (98) 8506-6125 / (98) 9609-7660</span>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202506822674</strong>
+
+                    <p>TROCA DE GRADIL DE PISO</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202506823046</strong>
+
+                    <p>SOLDA EM GRADIL DE PISO</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- OS442 -->
+
+    <section id="os442" class="pagina">
+
+    <div class="cabecalho">
+
+        <div>
+            <h1>🏗️ Contrato OS 442</h1>
+            <p class="subtitulo">
+                Disponibilidade de Mão de Obra e Recursos
+            </p>
+        </div>
+
+        <div class="data-card">
+            📅 10/07/2026<br>
+            🕐 Turno Dia A
+        </div>
+
+    </div>
+
+    <!-- QLP -->
+
+    <div class="bloco">
+
+        <h2>👷 Efetivo (QLP)</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>03</strong></li>
+            <li>🔩 Mecânicos <strong>07</strong></li>
+            <li>⚙️ Soldadores <strong>03</strong></li>
+            <li>🪜 Montadores de Andaime <strong>03</strong></li>
+            <li>⚡ Eletricistas <strong>10</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- AUSÊNCIAS -->
+
+    <div class="bloco">
+
+        <h2>❌ Ausências</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>00</strong></li>
+            <li>🔩 Mecânicos <strong>01</strong></li>
+            <li>⚙️ Soldadores <strong>00</strong></li>
+            <li>🪜 Montadores <strong>00</strong></li>
+            <li>⚡ Eletricistas <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- MOBILIZAÇÃO -->
+
+    <div class="bloco">
+
+        <h2>⚠️ Efetivo em Mobilização</h2>
+
+        <ul class="lista">
+
+            <li>🔩 Mecânicos <strong>00</strong></li>
+            <li>⚡ Eletricistas <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- RECURSOS -->
+
+    <div class="bloco">
+
+        <h2>🚚 Recursos Disponíveis</h2>
+
+        <ul class="lista">
+
+            <li>🚛 Munck — QRD-8212 (Romário)</li>
+
+            <li>🚗 Pick-up — SFU-0A35 (Domingos)</li>
+
+            <li>🚍 Ônibus — ROR-4B49 (Andreía)</li>
+
+        </ul>
+
+    </div>
+
+    <!-- OMS -->
+
+    <div class="bloco">
+
+        <h2>📋 OMs Programadas</h2>
+
+        <!-- MAYCKELL -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <h3>👷 Mayckell</h3>
+
+                <span>📞 (98) 8611-2557</span>
+
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202601853426</strong>
+                    <p>MANUTENÇÃO EM VASOS DE PRESSÃO TR1365</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603271476</strong>
+                    <p>SUBSTITUIR PAINEL SOLENÓIDE DOS CANHÕES 1104</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- JOSIAS -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <h3>👷 Josias</h3>
+
+                <span>📞 (98) 8161-3655</span>
+
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202405088615</strong>
+                    <p>SUBSTITUIR JB CX-04 PRÓXIMO À CALDA 13-65</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- JUNIOR -->
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <h3>👷 Junior</h3>
+
+                <span>📞 (98) 8162-8039</span>
+
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603459019</strong>
+                    <p>APOIO: MONTAR/DESMONTAR ANDAIME 1501</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603198921</strong>
+                    <p>GUINCHO GRAVIDADE TR1318</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603325167</strong>
+                    <p>ESTICAMENTO ELÉTRICO TR1318</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202602849225</strong>
+                    <p>ESTICAMENTO ELÉTRICO TR1329</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202602716678</strong>
+                    <p>GUINCHO GRAVIDADE TR1329</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603157422</strong>
+                    <p>ESTICAMENTO ELÉTRICO TR1317</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>OM 202603157680</strong>
+                    <p>GUINCHO TR1317</p>
+                </div>
+            </div>
+
+            <div class="om-item">
+                <span class="status amarelo"></span>
+                <div>
+                    <strong>EMERGENCIAL</strong>
+                    <p>Substituição de subconjuntos - VV-311K-04</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- OS450 -->
+
+    <section id="os450" class="pagina">
+
+    <div class="cabecalho">
+
+        <div>
+            <h1>🏗️ Contrato OS 450</h1>
+            <p class="subtitulo">
+                Disponibilidade de Mão de Obra e Recursos
+            </p>
+        </div>
+
+        <div class="data-card">
+            📅 10/07/2026<br>
+            🕐 Turno Dia A
+        </div>
+
+    </div>
+
+    <!-- QLP -->
+
+    <div class="bloco">
+
+        <h2>👷 Efetivo (QLP)</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>05</strong></li>
+            <li>🔩 Mecânicos <strong>11</strong></li>
+            <li>⚙️ Soldadores <strong>05</strong></li>
+            <li>🪜 Montadores de Andaime <strong>08</strong></li>
+            <li>⚡ Eletricistas <strong>08</strong></li>
+            <li>🦺 Auxiliar de Sinalização <strong>02</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- AUSÊNCIAS -->
+
+    <div class="bloco">
+
+        <h2>❌ Ausências</h2>
+
+        <ul class="lista">
+
+            <li>🔧 Caldeireiros <strong>00</strong></li>
+            <li>🔩 Mecânicos <strong>01</strong></li>
+            <li>⚙️ Soldadores <strong>00</strong></li>
+            <li>🪜 Montadores <strong>00</strong></li>
+            <li>⚡ Eletricistas <strong>00</strong></li>
+            <li>🦺 Aux. Sinalização <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- MOBILIZAÇÃO -->
+
+    <div class="bloco">
+
+        <h2>⚠️ Efetivo em Mobilização</h2>
+
+        <ul class="lista">
+
+            <li>🦺 Aux. Sinalização <strong>00</strong></li>
+            <li>⚡ Eletricistas <strong>00</strong></li>
+
+        </ul>
+
+    </div>
+
+    <!-- RECURSOS -->
+
+    <div class="bloco">
+
+        <h2>🚚 Recursos Disponíveis</h2>
+
+        <ul class="lista">
+
+            <li>🚛 Munck — QRI-7I40 (Márcio Douglas - 98 8805-1819)</li>
+            <li>🚛 Munck — QRD-8213 (Moisés)</li>
+
+            <li>🚗 Pick-up — SFV-7I13 (Ítalo - 98 8184-5269)</li>
+            <li>🚗 Pick-up — QRI-2G50 (Rosivaldo - 98 9187-8772)</li>
+
+            <li>🚚 Caminhão Tanque — PTG-3093 (Maxuel)</li>
+
+            <li>🚘 Carro 35008 — SMX-4110 (Alciomar)</li>
+            <li>🚘 Carro 35022 — SMX-3C99 (Oliveira)</li>
+            <li>🚘 Carro 35054 — SMX-6I53 (Gilmar)</li>
+            <li>🚘 Carro 35046 — SMX-6G78 (Geilson)</li>
+
+        </ul>
+
+    </div>
+
+    <!-- OMS -->
+
+    <div class="bloco">
+
+        <h2>📋 OMs Programadas</h2>
+
+        <div class="lider-card">
+
+            <div class="lider-topo">
+
+                <h3>👷 Equipe OS 450</h3>
+
+                <span>Turno Dia A</span>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202504147432</strong>
+
+                    <p>TROCAR 16 ROLOS DE RETORNO E AJUSTAR BASE LINHA INFERIOR AL-01</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202504150894</strong>
+
+                    <p>AJUSTAR ROLOS DE APOIO LINHA SUPERIOR AL-02</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202602592460</strong>
+
+                    <p>MODIFICAÇÃO DO CHUTE TR1389-TR1543</p>
+
+                </div>
+
+            </div>
+
+            <div class="om-item">
+
+                <span class="status amarelo"></span>
+
+                <div>
+
+                    <strong>OM 202603070004</strong>
+
+                    <p>MONTAR 11 CAÇAMBAS NA RODA NOVA DA RP05</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
